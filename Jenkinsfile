@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'docker-jenkins'
-    }
-  }
-
+  
   options {
     timestamps()
   }
